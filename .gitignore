@@ -1,0 +1,8 @@
+/build/
+/out/
+/.vs/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.addon64
