@@ -53,9 +53,9 @@ What it doesn't touch:
 
 1. Install ReShade **with full add-on support** (6.5 or newer) for MGSV, choosing DirectX 10/11/12.
    This puts `dxgi.dll` next to `mgsvtpp.exe`.
-2. Download `mgsv_reshade_fix.addon64` from [Releases](../../releases) and put it in the game folder
-   next to `mgsvtpp.exe`. If you've set a custom `AddonPath` in `ReShade.ini`, put it in that folder
-   instead.
+2. Download `mgsv_reshade_fix.addon64` from [Releases](../../releases) and place it in your ReShade
+   add-ons folder. If you haven't set one, use ReShade's default add-on location, which is next to
+   the game's exe.
 3. Launch the game. The ReShade overlay's **Add-ons** tab should list **MGSV ReShade Fix**.
 
 If you previously used DXVK as a workaround, remove DXVK's `d3d11.dll` and `dxgi.dll` from the game
